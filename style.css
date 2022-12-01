@@ -22,6 +22,7 @@ h2 {
   color-scheme: initial;
   font-size: larger;
 }
+
 .title {
   display: block;
   font-family: "Poppins", sans-serif;
@@ -61,6 +62,7 @@ h2 {
   padding: 10px;
   background-image: url("images/contact\ form\ shapes-mobile.svg");
 }
+
 .detailed {
   font-family: Times, serif;
   font-style: normal;
@@ -83,7 +85,6 @@ h2 {
   list-style-type: none;
   width: 100%;
   padding: 0;
-  display: flex;
   justify-content: center;
   align-items: center;
   gap: 1.25rem;
@@ -104,14 +105,14 @@ h2 {
 }
 
 .connect {
-  font-family: "poppins";
+  font-family: "Poppins", sans-serif;
   font-style: medium;
   font-size: 16 pt;
   line-height: 24 pt;
   line-height: 100%;
   text-align: center;
   vertical-align: top;
-  fill: Solid rgba(0.5, 0.55, 1, 1);
+  fill: solid rgba(0.5, 0.55, 1, 1);
   color: blue;
 }
 
