@@ -1,71 +1,83 @@
 html {
   box-sizing: border-box;
   font-size: 100%;
-  width: 462;
-  height: 2512;
+  width: 375px;
+  height: 823px;
 }
 
 body {
   background-color: white;
-  margin: 60px;
-  padding: 70;
-  border: 70;
+  margin: 0;
+  padding: 0;
   line-height: 2rem;
-  box-sizing: border-box;
-  width: 70%;
-}
-
-.main {
-  padding: 114px, 24px, 114px, 24px;
-  gap: 12px;
+  color: #7f8cff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400px;
+  font-size: 15px;
+  line-height: 24px;
 }
 
 h1,
 h2 {
-  margin: 4ex;
-  color-scheme: initial;
-  font-size: larger;
-}
-
-.title {
-  font-family: "Poppins", sans-serif;
-  font-style: bold;
-  font-size: 40pt;
-  line-height: 52pt;
-  line-height: 87%;
-  text-align: left;
-  vertical-align: center;
-  fill: solid rgba(0.09, 0.17, 0.3, 1);
-  padding-left: 0;
-  margin-left: 0;
-  color: #172b4d;
-}
-
-.logo_vector-btn {
-  background-color: transparent;
-  border: none;
+  margin: 0;
+  font-weight: 700;
+  color: rgba(0.09, 0.17, 0.3, 1);
 }
 
 .header_bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-align: center;
-  background-image: url("images/header-background-mobile.svg");
-}
-
-.header {
-  fill: solid rgba(1, 1, 1, 1);
-}
-
-.main .welcome {
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  max-width: 90rem;
   margin: auto;
-  background-image: url("images/header-shapes\ mobile@2x.svg");
+  padding: 1rem;
+}
+
+.logo_info {
+  font-family: "Poppins", sans-serif;
+  font-style: bold;
+  font-size: 18pt;
+  font-weight: 700;
+  line-height: 20pt;
+  line-height: 74%;
+  text-align: left;
+  left: 12px;
+  top: 10px;
+  vertical-align: center;
+  fill: solid rgba(0.38, 0.44, 1, 1);
+  text-decoration: none;
+  color: #6070ff;
+  margin: 0;
+  padding: 0;
+}
+
+.logo_vector-btn {
+  border: 0;
+  background-color: inherit;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.container-1 {
+  max-width: 90rem;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 2rem;
+  background: url("images/header-shapes\ mobile.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.title {
+  font-size: 40px;
+  line-height: 52px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
 }
 
 .detailed {
@@ -76,19 +88,7 @@ h2 {
   line-height: 100%;
   text-align: left;
   vertical-align: top;
-  fill: rgba(0.2, 0.27, 0.39, 1);
-}
-
-.logo_info {
-  font-family: "Poppins", sans-serif;
-  font-style: bold;
-  font-size: 18pt;
-  line-height: 20pt;
-  text-align: center;
-  vertical-align: center;
-  fill: rgba(0.33, 0.44, 1, 1);
-  display: flex;
-  text-decoration: none;
+  color: rgba(0.2, 0.27, 0.39, 1);
 }
 
 .connect {
@@ -107,22 +107,13 @@ h2 {
 }
 
 .social-media {
-  fill: rgba(0.31, 0.37, 0.47, 1);
+  color: solid rgba(0.31, 0.37, 0.47, 1);
   display: flex;
   list-style-type: none;
   padding: 0;
   justify-content: left;
   align-items: center;
   gap: 1.25rem;
-}
-
-.heading {
-  max-width: 90rem;
-  margin: auto;
-}
-
-.heading-pl {
-  padding: 1.5rem;
 }
 
 .social-media a:hover svg path {
