@@ -115,6 +115,6 @@ h2 {
   gap: 1.25rem;
 }
 
-.social-media :hover {
+.social-media a :hover {
   fill: #3909c8;
 }
