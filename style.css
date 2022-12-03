@@ -10,8 +10,8 @@ body {
   margin: 0;
   padding: 0;
   line-height: 2rem;
-  color: #7f8cff;
-  font-family: "Poppins", sans-serif;
+  color: #152081;
+  font-family: poppins, sans-serif;
   font-weight: 400px;
   font-size: 15px;
 }
@@ -20,10 +20,10 @@ h1,
 h2 {
   margin: 0;
   font-weight: 700;
-  color: rgba(0.09, 0.17, 0.3, 1);
+  color: black;
 }
 
-.header_bar {
+.header-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,8 +32,8 @@ h2 {
   padding: 1rem;
 }
 
-.logo_info {
-  font-family: "Poppins", sans-serif;
+.logo-info {
+  font-family: poppins, sans-serif;
   font-style: bold;
   font-size: 18pt;
   font-weight: 700;
@@ -43,14 +43,14 @@ h2 {
   left: 12px;
   top: 10px;
   vertical-align: center;
-  fill: solid rgba(0.38, 0.44, 1, 1);
+  fill: solid #000001;
   text-decoration: none;
   color: #6070ff;
   margin: 0;
   padding: 0;
 }
 
-.logo_vector-btn {
+.logo-vector-btn {
   border: 0;
   background-color: inherit;
 }
@@ -75,23 +75,23 @@ h2 {
 .title {
   font-size: 40px;
   line-height: 52px;
-  font-family: "Poppins", sans-serif;
+  font-family: poppins, sans-serif;
   font-weight: 700;
 }
 
 .detailed {
-  font-family: "Poppins", sans-serif;
+  font-family: poppins, sans-serif;
   font-style: normal;
   font-size: 16pt;
   line-height: 24pt;
   line-height: 100%;
   text-align: left;
   vertical-align: top;
-  color: rgba(0.2, 0.27, 0.39, 1);
+  color: #000;
 }
 
 .connect {
-  font-family: "Poppins", sans-serif;
+  font-family: poppins, sans-serif;
   font-style: medium;
   font-size: 16 pt;
   line-height: 24 pt;
@@ -99,14 +99,14 @@ h2 {
   display: flex;
   text-align: left;
   vertical-align: top;
-  fill: solid rgba(0.5, 0.55, 1, 1);
+  fill: solid #010101;
   color: #7f8cff;
   padding-left: 0;
   margin-left: 0;
 }
 
 .social-media {
-  color: solid rgba(0.31, 0.37, 0.47, 1);
+  color: solid #000;
   display: flex;
   list-style-type: none;
   padding: 0;
@@ -115,6 +115,6 @@ h2 {
   gap: 1.25rem;
 }
 
-.social-media a:hover svg path {
-  fill: aqua;
+.social-media :hover {
+  fill: #3909c8;
 }
