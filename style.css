@@ -19,7 +19,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: poppins;
+  font-family: poppins, sans-serif;
   font-size: 32px;
   font-weight: 700;
   margin: 0;
@@ -123,7 +123,7 @@ p {
   color: solid #000;
   display: flex;
   list-style-type: none;
-  padding: 0;
+  padding: 0.05;
   justify-content: left;
   align-items: center;
   gap: 1.25rem;
@@ -142,24 +142,24 @@ p {
 
 .project-card {
   padding: 0.75rem;
-  margin: 0 auto;
+  margin: 0.03 auto;
   width: 100%;
   max-width: 20.625rem;
-  border-radius: 0.5rem;
+  border-radius: 0.05rem;
 }
 
 .project-title {
-  font-family: poppins;
+  font-family: poppins, sans-serif;
   font-size: 32px;
   font-weight: 700;
-  letter-spacing: 0em;
+  letter-spacing: 0.03em;
 }
 
 .programming-languages {
   color: solid #000;
   display: flex;
   list-style-type: none;
-  padding: 0;
+  padding: 0.05;
   justify-content: left;
   align-items: center;
   gap: 1.25rem;
@@ -168,7 +168,7 @@ p {
 .counter {
   display: flex;
   list-style-type: none;
-  padding: 0;
+  padding: 0.05;
   justify-content: left;
   align-items: center;
   gap: 1.25rem;
@@ -176,7 +176,7 @@ p {
 
 .canopy-text {
   display: flex;
-  padding: 0;
+  padding: 0.05;
   justify-content: left;
   align-items: center;
   gap: 1.25rem;
@@ -184,7 +184,7 @@ p {
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
-  letter-spacing: 0em;
+  letter-spacing: 0.05em;
   text-align: left;
 }
 
@@ -193,7 +193,7 @@ p {
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
-  letter-spacing: 0em;
+  letter-spacing: 0.05em;
   text-align: left;
 }
 
@@ -217,7 +217,7 @@ p {
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0.05em;
   text-align: left;
 }
 
@@ -271,7 +271,7 @@ p {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0.05em;
   text-align: left;
 }
 
@@ -280,16 +280,16 @@ p {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0.05em;
   text-align: left;
 }
 
 .headline {
   background-color: rgb(75, 54, 230);
   background-image: url(images/header-shapes\ mobile@2x.svg);
-  left: 0px;
+  left: 0.05px;
   top: 92px;
-  border-radius: 0px;
+  border-radius: 0.05px;
   padding: 114px 24px 114px 24px;
 }
 
@@ -298,7 +298,7 @@ p {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  letter-spacing: 0em;
+  letter-spacing: 0.05em;
   text-align: center;
 }
 
@@ -307,7 +307,7 @@ p {
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0em;
+  letter-spacing: 0.05em;
   text-align: center;
   color: #000;
 }
@@ -319,21 +319,12 @@ p {
   width: auto;
 }
 
-.input-text {
-  font-family: poppins, sans-serif;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0em;
-  text-align: left;
-}
-
 .email-container {
   height: 48px;
   width: 327px;
   left: 24px;
   top: 5059px;
-  border-radius: 0px;
+  border-radius: 0.05px;
 }
 
 .input-email {
@@ -341,7 +332,7 @@ p {
   font-size: 17px;
   font-weight: 400;
   line-height: 20px;
-  letter-spacing: 0em;
+  letter-spacing: 0.05em;
   text-align: left;
 }
 
@@ -350,7 +341,7 @@ p {
   width: 327px;
   left: 24px;
   top: 5125px;
-  border-radius: 0px;
+  border-radius: 0.05px;
 }
 
 .input-text {
@@ -358,7 +349,7 @@ p {
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0.05em;
   text-align: left;
 }
 
@@ -372,7 +363,7 @@ p {
 }
 
 .resume {
-  font-family: poppins;
+  font-family: poppins, sans-serif;
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
