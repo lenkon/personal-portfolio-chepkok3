@@ -1,19 +1,23 @@
 html {
   box-sizing: border-box;
   font-size: 100%;
+  width: 462;
+  height: 2512;
 }
 
 body {
   background-color: white;
-  margin: 0;
-  padding: 0;
+  margin: 60px;
+  padding: 70;
+  border: 70;
   line-height: 2rem;
-  font-family: "Poppins", sans-serif;
-  font-size: 2rem;
-  font-weight: 300;
-  color: var(--darkBlue);
-  align-items: center;
   box-sizing: border-box;
+  width: 70%;
+}
+
+.main {
+  padding: 114px, 24px, 114px, 24px;
+  gap: 12px;
 }
 
 h1,
@@ -24,19 +28,22 @@ h2 {
 }
 
 .title {
-  display: block;
   font-family: "Poppins", sans-serif;
-  font-style: 16px;
-  font-size: large;
-  line-height: 30px;
-  text-align: center;
+  font-style: bold;
+  font-size: 40pt;
+  line-height: 52pt;
+  line-height: 87%;
+  text-align: left;
+  vertical-align: center;
+  fill: solid rgba(0.09, 0.17, 0.3, 1);
+  padding-left: 0;
+  margin-left: 0;
+  color: #172b4d;
 }
 
 .logo_vector-btn {
-  width: 24pt;
-  height: 24pt;
-  align-items: center;
-  fill: solid rgb(red, green, rgb(7, 7, 217));
+  background-color: transparent;
+  border: none;
 }
 
 .header_bar {
@@ -47,61 +54,41 @@ h2 {
   background-image: url("images/header-background-mobile.svg");
 }
 
+.header {
+  fill: solid rgba(1, 1, 1, 1);
+}
+
 .main .welcome {
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
-  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: space-around;
-  border: 3px;
   margin: auto;
-  width: 50%;
-  padding: 10px;
-  background-image: url("images/contact\ form\ shapes-mobile.svg");
+  background-image: url("images/header-shapes\ mobile@2x.svg");
 }
 
 .detailed {
-  font-family: Times, serif;
-  font-style: normal;
-  font-size: 18px;
-  line-height: 14pt;
-  text-align: left;
-  vertical-align: top;
-  fill: rgba(0.2, 0.27, 0.39, 1);
-}
-
-.social-media {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 16pt;
   line-height: 24pt;
+  line-height: 100%;
   text-align: left;
   vertical-align: top;
   fill: rgba(0.2, 0.27, 0.39, 1);
-  display: flex;
-  list-style-type: none;
-  width: 100%;
-  padding: 0;
-  justify-content: center;
-  align-items: center;
-  gap: 1.25rem;
-  background-color: url(images/contact\ form\ shapes-mobile@2x.png);
 }
 
 .logo_info {
   font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 24pt;
-  text-align: left;
-  vertical-align: top;
-  fill: rgba(0.2, 0.27, 0.39, 1);
+  font-style: bold;
+  font-size: 18pt;
+  line-height: 20pt;
+  text-align: center;
+  vertical-align: center;
+  fill: rgba(0.33, 0.44, 1, 1);
   display: flex;
   text-decoration: none;
-  color: black;
 }
 
 .connect {
@@ -110,10 +97,23 @@ h2 {
   font-size: 16 pt;
   line-height: 24 pt;
   line-height: 100%;
-  text-align: center;
+  display: flex;
+  text-align: left;
   vertical-align: top;
   fill: solid rgba(0.5, 0.55, 1, 1);
-  color: blue;
+  color: #7f8cff;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.social-media {
+  fill: rgba(0.31, 0.37, 0.47, 1);
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  justify-content: left;
+  align-items: center;
+  gap: 1.25rem;
 }
 
 .heading {
