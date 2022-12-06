@@ -89,7 +89,7 @@ p {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  letter-spacing: 0em;
+  letter-spacing: 0.01em;
   text-align: left;
 }
 
@@ -99,17 +99,16 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0.01em;
   text-align: left;
 }
 
 .connect {
   font-family: poppins, sans-serif;
-  font-family: Poppins;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0.01em;
   text-align: left;
   color: #7f8cff;
   padding-left: 0;
@@ -130,13 +129,12 @@ p {
   color: #3909c8;
 }
 
-.section__grid {
+.section-grid {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   grid-gap: 88px;
-  border-radius: 0px;
-  padding: 114px 24px 114px 24px;
+  padding: 114px 24px;
 }
 
 .project-card {
@@ -144,8 +142,8 @@ p {
   max-width: 327px;
   border-radius: 16px;
   padding: 16px;
-  border: solid 1px rgb(96, 93, 93);
   margin: auto;
+  border: solid 1px #8e898d;
 }
 
 .snapshot-portfolio-img {
@@ -203,7 +201,7 @@ p {
 
 .languages a {
   border-radius: 8px;
-  padding: 4px 12px 4px 12px;
+  padding: 4px 12px;
   background-color: #ebebff;
 }
 
@@ -212,7 +210,7 @@ p {
   max-width: 375px;
   border-radius: 16px;
   padding: 16px;
-  border: solid 1px rgb(142, 137, 137);
+  border: solid 1px #8e898d;
   margin: auto;
   gap: 12px;
 }
