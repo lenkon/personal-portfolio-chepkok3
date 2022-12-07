@@ -258,21 +258,26 @@ p {
 }
 
 .see-project-button {
+  border-radius: 8px;
   padding: 12px;
   border: solid 1px #396df2;
-  border-radius: 8px;
   gap: 10px;
   top: 12px;
+  color: #5e6c84;
+  font-family: poppins, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.see-project-button :active {
   color: #fff;
 }
 
-.text-see-project .see-project-button {
-  background-color: #396df2;
-  transition: background-color 120ms ease-in-out, box-shadow 120ms ease-in-out;
-}
-
 .text-see-project .see-project-button:hover {
-  box-shadow: 0 8px 16px #6070ff;
+  background-color: #6070ff;
 }
 
 .top {
@@ -299,15 +304,20 @@ p {
 
 .resume {
   border-radius: 8px;
-  border: solid 1px #396df2;
+  border: solid 1px #6070ff;
   padding: 12px;
   gap: 10px;
-  color: #6070ff;
+  color: #5e6c84;
+  font-family: poppins, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .myself-btn .resume:hover {
-  box-shadow: 0 8px 16px pink;
-  color: #a20c31;
+  background-color: #6070ff;
 }
 
 .skill-info {
