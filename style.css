@@ -263,7 +263,7 @@ p {
   border: solid 1px #396df2;
   gap: 10px;
   top: 12px;
-  color: #5e6c84;
+  color: #396df2;
   font-family: poppins, sans-serif;
   font-size: 17px;
   font-weight: 500;
@@ -278,6 +278,7 @@ p {
 
 .text-see-project .see-project-button:hover {
   background-color: #6070ff;
+  color: #fff;
 }
 
 .top {
@@ -307,7 +308,7 @@ p {
   border: solid 1px #6070ff;
   padding: 12px;
   gap: 10px;
-  color: #5e6c84;
+  color: #6070ff;
   font-family: poppins, sans-serif;
   font-size: 17px;
   font-weight: 500;
@@ -318,6 +319,7 @@ p {
 
 .myself-btn .resume:hover {
   background-color: #6070ff;
+  color: #fff;
 }
 
 .skill-info {
