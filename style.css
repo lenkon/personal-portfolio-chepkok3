@@ -261,12 +261,18 @@ p {
   padding: 12px;
   border: solid 1px #396df2;
   border-radius: 8px;
-  color: #396df2;
+  gap: 10px;
+  top: 12px;
+  color: #fff;
+}
+
+.text-see-project .see-project-button {
+  background-color: #396df2;
+  transition: background-color 120ms ease-in-out, box-shadow 120ms ease-in-out;
 }
 
 .text-see-project .see-project-button:hover {
-  box-shadow: 0 8px 16px pink;
-  color: #a20c31;
+  box-shadow: 0 8px 16px #6070ff;
 }
 
 .top {
