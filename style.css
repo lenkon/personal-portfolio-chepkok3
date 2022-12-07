@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-color: white;
+  background-color: #e5e5e5;
   margin: 0;
   padding: 0;
   line-height: 2rem;
@@ -33,6 +33,15 @@ a::after {
 
 p {
   margin-top: 0;
+}
+
+.header {
+  color: #344563;
+  max-width: 375px;
+  padding: 16px;
+  margin: auto;
+  gap: 12px;
+  background-color: #fff;
 }
 
 .header-bar {
@@ -68,7 +77,12 @@ p {
 }
 
 .welcome {
-  text-align: left;
+  color: #344563;
+  max-width: 375px;
+  padding: 16px;
+  margin: auto;
+  gap: 12px;
+  background-color: #fff;
 }
 
 .container-1 {
@@ -96,7 +110,7 @@ p {
 .detailed {
   font-family: poppins, sans-serif;
   color: #344563;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.01em;
@@ -125,10 +139,6 @@ p {
   gap: 1.25rem;
 }
 
-.social-media a :hover {
-  color: #3909c8;
-}
-
 .section-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -138,12 +148,13 @@ p {
 }
 
 .project-card {
-  color: #344563;
   max-width: 327px;
   border-radius: 16px;
   padding: 16px;
+  color: #344563;
   margin: auto;
-  border: solid 1px #8e898d;
+  gap: 12px;
+  background-color: #fff;
 }
 
 .snapshot-portfolio-img {
@@ -158,10 +169,12 @@ p {
 }
 
 .project-title {
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 700;
   margin-bottom: 1rem;
   font-family: poppins, sans-serif;
+  line-height: 44px;
+  color: #172b4d;
 }
 
 .counter {
@@ -178,6 +191,7 @@ p {
   line-height: 16px;
   letter-spacing: 0.05em;
   text-align: left;
+  color: #344563;
 }
 
 .canopy-text {
@@ -185,9 +199,22 @@ p {
   padding: 0;
   justify-content: left;
   gap: 1.25rem;
-  line-height: 24px;
   letter-spacing: 0.05em;
   list-style-type: none;
+  font-family: poppins, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.primary-text {
+  font-family: poppins, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #344563;
 }
 
 .programming-languages {
@@ -199,10 +226,21 @@ p {
   padding: 0;
 }
 
+.languages .programming-languages .btn:hover {
+  color: #a20c31;
+}
+
 .languages a {
   border-radius: 8px;
   padding: 4px 12px;
   background-color: #ebebff;
+  font-family: poppins, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #6070ff;
 }
 
 .about-myself-section {
@@ -210,9 +248,9 @@ p {
   max-width: 375px;
   border-radius: 16px;
   padding: 16px;
-  border: solid 1px #8e898d;
   margin: auto;
   gap: 12px;
+  background-color: #fff;
 }
 
 .text-see-project {
@@ -226,16 +264,23 @@ p {
   color: #396df2;
 }
 
+.text-see-project .see-project-button:hover {
+  box-shadow: 0 8px 16px pink;
+  color: #a20c31;
+}
+
 .top {
   margin-top: 114px;
 }
 
 .info-title {
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 56px;
+  line-height: 72px;
   font-family: poppins, sans-serif;
   font-weight: 700;
   color: #172b4d;
+  letter-spacing: 0.01em;
+  text-align: left;
 }
 
 .about-myself-text {
@@ -254,6 +299,11 @@ p {
   color: #6070ff;
 }
 
+.myself-btn .resume:hover {
+  box-shadow: 0 8px 16px pink;
+  color: #a20c31;
+}
+
 .skill-info {
   font-family: poppins, sans-serif;
   font-weight: 500;
@@ -262,7 +312,8 @@ p {
 }
 
 .languages-btn {
-  color: #acb7c3;
+  background-color: transparent;
+  border: none;
 }
 
 .list-frames {
@@ -301,7 +352,8 @@ p {
 }
 
 .frame-8-btn {
-  color: #acb7c3;
+  background-color: transparent;
+  border: none;
 }
 
 .skills {
