@@ -17,10 +17,24 @@ body {
 }
 
 h1,
-h2 {
-  margin: 0;
+h2,
+h3 {
+  font-family: poppins, sans-serif;
+  font-size: 32px;
   font-weight: 700;
+  margin: 0;
   color: black;
+}
+
+a,
+a::before,
+a::after {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  margin-top: 0;
 }
 
 .header-bar {
@@ -109,12 +123,252 @@ h2 {
   color: solid #000;
   display: flex;
   list-style-type: none;
-  padding: 0;
+  padding: 0.05;
   justify-content: left;
   align-items: center;
   gap: 1.25rem;
 }
 
 .social-media a :hover {
-  fill: #3909c8;
+  color: #3909c8;
+}
+
+.work-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 1.5rem;
+}
+
+.project-card {
+  padding: 0.75rem;
+  margin: 0.03 auto;
+  width: 100%;
+  max-width: 20.625rem;
+  border-radius: 0.05rem;
+}
+
+.project-title {
+  font-family: poppins, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.programming-languages {
+  color: solid #000;
+  display: flex;
+  list-style-type: none;
+  padding: 0.05;
+  justify-content: left;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.counter {
+  display: flex;
+  list-style-type: none;
+  padding: 0.05;
+  justify-content: left;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.canopy-text {
+  display: flex;
+  padding: 0.05;
+  justify-content: left;
+  align-items: center;
+  gap: 1.25rem;
+  font-family: poppins, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+.canopy {
+  font-family: poppins, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+.info-section {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.about-info {
+  max-width: 37.5rem;
+  margin: 1.5rem auto;
+}
+
+.info-container {
+  max-width: 37.5rem;
+  margin: 1.5rem auto;
+}
+
+.primary-text {
+  font-family: poppins, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+.btn {
+  color: #396df2;
+  background: #efebeb;
+}
+
+.see-project-button {
+  color: #396df2;
+  font-family: poppins, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  border-radius: 25px;
+  border: 2px solid #396df2;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+}
+
+.list-frames {
+  list-style-type: none;
+  left: 12px;
+  top: 12px;
+  border-radius: 8px;
+}
+
+.language-framework {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 90rem;
+  margin: auto;
+  padding: 1rem;
+}
+
+.language-skills {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 90rem;
+  margin: auto;
+  padding: 1rem;
+}
+
+.framework {
+  font-family: poppins, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+.skills {
+  font-family: poppins, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+.headline {
+  background-color: rgb(75, 54, 230);
+  background-image: url(images/header-shapes\ mobile@2x.svg);
+  left: 0.05px;
+  top: 92px;
+  border-radius: 0.05px;
+  padding: 114px 24px 114px 24px;
+}
+
+.contact-title {
+  font-family: poppins, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+
+.content-text {
+  font-family: poppins, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #000;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.email-container {
+  height: 48px;
+  width: 327px;
+  left: 24px;
+  top: 5059px;
+  border-radius: 0.05px;
+}
+
+.input-email {
+  font-family: poppins, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+.text-container {
+  height: 470px;
+  width: 327px;
+  left: 24px;
+  top: 5125px;
+  border-radius: 0.05px;
+}
+
+.input-text {
+  font-family: poppins, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+.get-in-touch {
+  height: 48px;
+  width: 140px;
+  left: 24px;
+  top: 5317px;
+  border-radius: 8px;
+  padding: 12px 16px 12px 16px;
+}
+
+.resume {
+  font-family: poppins, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  border-radius: #396df2;
+  color: #396df2;
 }
