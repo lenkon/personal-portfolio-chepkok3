@@ -401,11 +401,20 @@ p {
   color: #253858;
 }
 
+.footer-container {
+  border: red 2px solid;
+}
+
 .footer-section {
+  border-radius: 80px 0px 0px 0px;
   display: flex;
   justify-content: center;
   background-color: #396df2;
+  background-image: url(images/contact-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 24px;
+  padding-top: 180px;
   width: 375px;
 }
 
@@ -475,7 +484,8 @@ p {
 }
 
 .footer-text .footer-button {
-  width: 35%;
+  height: 70px;
+  width: 50%;
   padding: 1rem;
   border: solid 1px #cfd8dc;
   border-radius: 8px;
