@@ -402,13 +402,7 @@ p {
   color: #253858;
 }
 
-.footer-container {
-  padding-left: 0;
-  width: 106%;
-}
-
 .footer-section {
-  margin-left: -23px;
   border-top-left-radius: 80px;
   display: flex;
   justify-content: center;
@@ -416,8 +410,7 @@ p {
   background-image: url("images/contact-background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 24px;
-  padding-top: 180px;
+  padding: 180px 24px 0;
 }
 
 .contact-title {
@@ -443,11 +436,12 @@ p {
   flex-direction: column;
   gap: 18px;
   color: #fff;
+  padding-bottom: 20px;
 }
 
 .footer-field input,
 .footer-field textarea {
-  width: 85%;
+  width: 95%;
   padding: 1rem;
   border: solid 1px #cfd8dc;
   border-radius: 8px;
@@ -486,6 +480,10 @@ p {
 }
 
 .footer-button {
+  padding: 1rem;
+  border: solid 1px #cfd8dc;
+  border-radius: 8px;
+  background-color: #fff;
   font-family: poppins, sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -495,34 +493,21 @@ p {
   color: #6070ff;
 }
 
-.footer-text .footer-button {
-  height: 70px;
-  width: 50%;
-  padding: 1rem;
-  border: solid 1px #cfd8dc;
-  border-radius: 8px;
-  background-color: #fff;
-}
-
-.footer-text .footer-button:hover {
+.footer-button:hover {
   background-color: #6070ff;
   color: #fff;
   border: solid #6070ff;
   font-size: 17px;
 }
 
-.footer-text .footer-button:disabled {
+.footer-button:disabled {
   color: #5e6c84;
   background-color: #e5e5e5;
   border: solid 1px #5e6c84;
 }
 
-.fade:hover {
-  background-color: #004369;
-}
-
-.footer-text .footer-button:focus,
-.footer-text .footer-button:active {
+.footer-button:focus,
+.footer-button:active {
   background-color: #2230d2;
   color: #fff;
   transition: none;
