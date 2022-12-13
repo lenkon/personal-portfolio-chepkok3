@@ -226,10 +226,10 @@ p {
   padding: 0;
 }
 
-/* .programming-languages li {
+.programming-languages li {
   float: left;
   padding-right: 6px;
-} */
+}
 
 .languages .programming-languages .btn:hover {
   color: #a20c31;
@@ -402,30 +402,29 @@ p {
 }
 
 .footer-section {
+  display: flex;
+  justify-content: center;
   background-color: #396df2;
   padding: 24px;
+  width: 375px;
 }
 
 .contact-title {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  letter-spacing: 0em;
+  letter-spacing: 0.01em;
   text-align: center;
   color: #fff;
-  padding-left: 320px;
-  padding-right: 319px;
 }
 
 .content-text {
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0em;
+  letter-spacing: 0.01em;
   text-align: center;
   color: #ebebff;
-  padding-left: 436px;
-  padding-right: 435px;
 }
 
 .contact-form {
@@ -433,8 +432,6 @@ p {
   flex-direction: column;
   gap: 18px;
   color: #fff;
-  padding-left: 467px;
-  padding-right: 466px;
 }
 
 .footer-field input,
@@ -443,7 +440,7 @@ p {
   padding: 1rem;
   border: solid 1px #cfd8dc;
   border-radius: 8px;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .footer-field textarea {
@@ -455,7 +452,7 @@ p {
   font-size: 17px;
   font-weight: 400;
   line-height: 20px;
-  letter-spacing: 0em;
+  letter-spacing: 0.01em;
   text-align: left;
   color: #172b4d;
 }
@@ -465,7 +462,7 @@ p {
   font-size: 17px;
   font-weight: 400;
   line-height: 20px;
-  letter-spacing: 0em;
+  letter-spacing: 0.01em;
   text-align: left;
   color: #172b4d;
 }
@@ -490,7 +487,6 @@ p {
   color: #fff;
   border: solid #6070ff;
   font-size: 17px;
-  /* transform: rotate(20deg); */
 }
 
 .footer-text .footer-button:disabled {
@@ -529,7 +525,5 @@ p {
   align-items: center;
   float: center;
   align-content: center;
-  padding-left: 120px;
-  padding-right: 121px;
   padding-top: 37px;
 }
