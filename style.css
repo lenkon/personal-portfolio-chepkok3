@@ -226,6 +226,11 @@ p {
   padding: 0;
 }
 
+/* .programming-languages li {
+  float: left;
+  padding-right: 6px;
+} */
+
 .languages .programming-languages .btn:hover {
   color: #a20c31;
 }
@@ -278,6 +283,11 @@ p {
 
 .text-see-project .see-project-button:hover {
   background-color: #6070ff;
+  color: #fff;
+}
+
+.text-see-project .see-project-button:active {
+  background-color: #2230d2;
   color: #fff;
 }
 
@@ -389,4 +399,137 @@ p {
   font-weight: 500;
   font-family: poppins, sans-serif;
   color: #253858;
+}
+
+.footer-section {
+  background-color: #396df2;
+  padding: 24px;
+}
+
+.contact-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  padding-left: 320px;
+  padding-right: 319px;
+}
+
+.content-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ebebff;
+  padding-left: 436px;
+  padding-right: 435px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  color: #fff;
+  padding-left: 467px;
+  padding-right: 466px;
+}
+
+.footer-field input,
+.footer-field textarea {
+  width: 85%;
+  padding: 1rem;
+  border: solid 1px #cfd8dc;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.footer-field textarea {
+  resize: none;
+}
+
+#name {
+  font-family: poppins, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #172b4d;
+}
+
+#email {
+  font-family: poppins, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #172b4d;
+}
+
+#message {
+  font-weight: 400;
+  font-size: 15px;
+  color: #b3bac5;
+  font-family: poppins, sans-serif;
+}
+
+.footer-text .footer-button {
+  width: 35%;
+  padding: 1rem;
+  border: solid 1px #cfd8dc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.footer-text .footer-button:hover {
+  background-color: #6070ff;
+  color: #fff;
+  border: solid #6070ff;
+  font-size: 17px;
+  /* transform: rotate(20deg); */
+}
+
+.footer-text .footer-button:disabled {
+  color: #5e6c84;
+  background-color: #e5e5e5;
+  border: solid 1px #5e6c84;
+}
+
+.fade:hover {
+  background-color: #004369;
+}
+
+.footer-text .footer-button:focus,
+.footer-text .footer-button:active {
+  background-color: #2230d2;
+  color: #fff;
+  transition: none;
+}
+
+.bg1 {
+  background-image: url("images/jackson-sophat-_t-l5FFH8VA-unsplash.jpg");
+}
+
+.footer-button {
+  font-family: poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #6070ff;
+}
+
+.photo {
+  flex-direction: column;
+  align-items: center;
+  float: center;
+  align-content: center;
+  padding-left: 120px;
+  padding-right: 121px;
+  padding-top: 37px;
 }
