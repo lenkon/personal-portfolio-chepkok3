@@ -88,14 +88,14 @@ p {
 .container-1 {
   max-width: 90rem;
   margin: auto;
-  padding: 1rem;
+  padding: 12px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  gap: 2rem;
-  background: url("images/header-shapes\ mobile.png");
+  background: url("images/header-shapes\ mobile@2x.svg");
   background-repeat: no-repeat;
   background-size: 100%;
+  height: 600px;
 }
 
 .title {
@@ -406,11 +406,11 @@ p {
 }
 
 .footer-section {
-  border-radius: 80px 0px 0px 0px;
+  border-radius: 80px 0.01px 0.01px;
   display: flex;
   justify-content: center;
   background-color: #396df2;
-  background-image: url(images/contact-background.png);
+  background-image: url("images/contact-background.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 24px;
@@ -483,6 +483,16 @@ p {
   font-family: poppins, sans-serif;
 }
 
+.footer-button {
+  font-family: poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #6070ff;
+}
+
 .footer-text .footer-button {
   height: 70px;
   width: 50%;
@@ -514,26 +524,4 @@ p {
   background-color: #2230d2;
   color: #fff;
   transition: none;
-}
-
-.bg1 {
-  background-image: url("images/jackson-sophat-_t-l5FFH8VA-unsplash.jpg");
-}
-
-.footer-button {
-  font-family: poppins, sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: #6070ff;
-}
-
-.photo {
-  flex-direction: column;
-  align-items: center;
-  float: center;
-  align-content: center;
-  padding-top: 37px;
 }
