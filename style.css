@@ -12,6 +12,7 @@ body {
   font-family: poppins, sans-serif;
   font-weight: 400px;
   font-size: 15px;
+  height: 5000px;
 }
 
 h1,
@@ -402,11 +403,13 @@ p {
 }
 
 .footer-container {
-  border: red 2px solid;
+  padding-left: 0;
+  width: 106%;
 }
 
 .footer-section {
-  border-radius: 80px 0.01px 0.01px;
+  margin-left: -23px;
+  border-top-left-radius: 80px;
   display: flex;
   justify-content: center;
   background-color: #396df2;
@@ -415,7 +418,6 @@ p {
   background-size: cover;
   padding: 24px;
   padding-top: 180px;
-  width: 375px;
 }
 
 .contact-title {
