@@ -328,7 +328,7 @@
               </p>
             </div>
   
-            <form action="https://formspree.io/f/xpznvyer" method="POST" class="contact-form">
+            <form action="https://formspree.io/f/xpznvyer" method="POST"      class="contact-form">
               <div class="footer-field">
                 <input
                   required
@@ -342,7 +342,8 @@
               </div>
   
               <div class="footer-field">
-                <input required name="Email" id="email" placeholder="natajayanj14@gmail.com" type="email" />
+                <input required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="Email" id="email" placeholder="natajayanj14@gmail.com"
+                 type="email" />
               </div>
   
               <div class="footer-field">
@@ -353,6 +354,7 @@
                   placeholder="Write your message here"
                   maxlength="500"
                   required
+    
                   type="text"
                   cols="30"
                   rows="10"
@@ -360,16 +362,11 @@
               </div>
   
               <div class="footer-text">
-                <button class="footer-button bg1" type="submit">
+                <button class="footer-button" type="submit">
                   Get In Touch
                 </button>
               </div>
             </form>
-  
-            <div class="photo">
-              <img src="images/Shape.png" alt="">
-            </div>
-            </div>
           </div>
         </footer> 
       </section>
