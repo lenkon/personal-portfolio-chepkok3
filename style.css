@@ -1003,13 +1003,15 @@
   }
 
   .contact-me-form {
+    height: 90vh;
     color: #344563;
     padding: 24px;
     margin: auto;
     gap: 12px;
     background-color: #6070ff;
-    background-image: url("images/contact-form-background\ shapes.svg");
-    background-position: right top;
+    background-image: url("desktop/contact\ form\ background\ shapes@2x.png");
+    background-size: cover;
+    background-position: bottom left, right top;
     background-repeat: no-repeat;
     font-family: poppins, sans-serif;
     border-top-left-radius: 80px;
