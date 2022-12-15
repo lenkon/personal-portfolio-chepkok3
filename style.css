@@ -39,7 +39,7 @@
 
   .header {
     color: #344563;
-    max-width: 375px;
+    max-width: 100%;
     padding: 16px;
     margin: auto;
     gap: 12px;
@@ -84,7 +84,7 @@
 
   .welcome {
     color: #344563;
-    max-width: 375px;
+    max-width: 100%;
     padding: 16px;
     margin: auto;
     gap: 12px;
@@ -266,12 +266,14 @@
 
   .about-myself-section {
     color: #344563;
-    max-width: 375px;
+    max-width: 100%;
     border-radius: 16px;
     padding: 16px;
     margin: auto;
     gap: 12px;
     background-color: #fff;
+    height: 150vh;
+    margin-bottom: 0.01px;
   }
 
   .text-see-project {
@@ -309,7 +311,7 @@
   }
 
   .top {
-    margin-top: 114px;
+    padding-top: 0.01px;
   }
 
   .info-title {
@@ -626,9 +628,9 @@
 
   .detailed {
     margin-top: 12px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 24px;
     letter-spacing: 0.01em;
     text-align: left;
     color: #344563;
@@ -637,7 +639,6 @@
 
   .connect {
     margin-top: 0;
-    padding-top: 12px;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -647,7 +648,6 @@
   }
 
   .social-media {
-    margin-top: 4px;
     padding-left: 0.01px;
     width: 150px;
     list-style-type: none;
@@ -858,14 +858,15 @@
     border-top-right-radius: 90px;
     border-bottom-left-radius: 0;
     margin-bottom: 0;
+    justify-content: center;
+    max-width: 100%;
   }
 
   .top {
-    width: 150%;
+    width: 40%;
     top: 24px;
     border-radius: 0.01px;
-    padding: 24px;
-    gap: 24px;
+    padding-left: 142px;
   }
 
   .info-title {
@@ -908,10 +909,10 @@
   }
 
   .skill-list {
+    width: 60%;
     border-radius: 0.01px;
     padding: 24px;
     gap: 24px;
-    padding-left: 40px;
   }
 
   .skill-info {
