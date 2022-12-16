@@ -546,6 +546,12 @@
 
   .logo-vector-btn {
     display: none;
+    animation: animate 8s 1;
+  }
+
+  .logo-vector-btn :hover {
+    background-color: #262626;
+    color: #fff;
   }
 
   .menu ul {
