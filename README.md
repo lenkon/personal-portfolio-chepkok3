@@ -32,8 +32,10 @@ learning how to use git and git. The project name is called personal portfolio.
 
 ### Key Features <a name="key-features"></a>
 
+- **[mobile version]** There is a mobile version of the project that can be viewed on mobile devices.
+- **[gitignore directory]** There is a desktop version of the project that is built for big screen devices like PCs.
 - **[Header and main]** An HTML file with a header and main section for navigation and enabling user interaction.
-- **[CSS styling]** CSS file with an colr styling of the HTML header.
+- **[CSS styling]** CSS file with an color styling of the HTML header.
 - **[gitignore directory]** There is a gitignore directory containing node_module] [images folder with different images for the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
