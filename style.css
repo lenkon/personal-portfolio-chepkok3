@@ -601,6 +601,7 @@
     from {
       transform: rotate(0deg);
     }
+
     to {
       transform: rotate(360deg);
     }
@@ -634,6 +635,19 @@
     letter-spacing: 0.37px;
     text-align: left;
     margin-bottom: 0.01px;
+    animation: 5s infinite reverse translation linear;
+  }
+
+  @keyframes translation {
+    from {
+      transform: translate(0%);
+      magin-left: 0;
+    }
+
+    to {
+      transform: translate(50%);
+      margin-left: 100%;
+    }
   }
 
   .detailed {
@@ -814,7 +828,6 @@
     line-height: 24px;
     letter-spacing: 3%;
     text-align: center;
-    transition: all 0.5s ease 1.15s;
   }
 
   .text-see-project-desktop {
@@ -822,6 +835,7 @@
     padding: 12px;
     border-radius: 8px;
     background-color: #4053fc;
+    transition: all 1s ease 0.15s;
   }
 
   .see-project-btn {
@@ -832,6 +846,7 @@
     letter-spacing: 0.03em;
     text-align: center;
     color: #fff;
+    transition: all 1s ease 0.15s;
   }
 
   .text-see-project-desktop:hover {
@@ -851,7 +866,6 @@
   .text-see-project .see-project-button:hover {
     background-color: #6070ff;
     color: #fff;
-
   }
 
   .text-see-project .see-project-button:active {
@@ -920,6 +934,7 @@
     letter-spacing: 0.03em;
     text-align: center;
     text-decoration: none;
+    transition: all 1s ease 0.15s;
   }
 
   .myself-btn .resume:hover {
@@ -1054,8 +1069,21 @@
     letter-spacing: 0.01em;
     text-align: center;
     color: #fff;
-    padding-left: 320px;
-    padding-right: 319px;
+    padding-left: 30%;
+    padding-right: 30%;
+    animation: 3s infinite reverse translation linear;
+  }
+
+  @keyframes translation {
+    from {
+      transform: translate(0%);
+      magin-left: 0;
+    }
+
+    to {
+      transform: translate(10%);
+      margin-left: 20%;
+    }
   }
 
   .content-text {
