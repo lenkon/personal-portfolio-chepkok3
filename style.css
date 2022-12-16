@@ -641,7 +641,7 @@
   @keyframes translation {
     from {
       transform: translate(0%);
-      magin-left: 0;
+      margin-left: 0;
     }
 
     to {
@@ -1077,7 +1077,7 @@
   @keyframes translation {
     from {
       transform: translate(0%);
-      magin-left: 0;
+      margin-left: 0;
     }
 
     to {
