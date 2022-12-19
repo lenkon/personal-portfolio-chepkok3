@@ -594,6 +594,17 @@
     color: #6070ff;
     margin: 0;
     padding: 0;
+    animation: rotation 1s ease-in;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
   }
 
   .welcome {
@@ -624,6 +635,19 @@
     letter-spacing: 0.37px;
     text-align: left;
     margin-bottom: 0.01px;
+    animation: 5s infinite reverse translation linear;
+  }
+
+  @keyframes translation {
+    from {
+      transform: translate(0%);
+      margin-left: 0;
+    }
+
+    to {
+      transform: translate(50%);
+      margin-left: 100%;
+    }
   }
 
   .detailed {
@@ -680,6 +704,13 @@
     width: 544px;
     padding: 34px;
     border-radius: 8px;
+    transform-origin: 0.5 1;
+    transition: width 1s ease-in 0.15s;
+  }
+
+  .snapshot-portfolio-img-desktop:hover {
+    height: 500px;
+    width: 600px;
   }
 
   .snapshot-portfolio-img {
@@ -804,6 +835,7 @@
     padding: 12px;
     border-radius: 8px;
     background-color: #4053fc;
+    transition: all 1s ease 0.15s;
   }
 
   .see-project-btn {
@@ -814,6 +846,7 @@
     letter-spacing: 0.03em;
     text-align: center;
     color: #fff;
+    transition: all 1s ease 0.15s;
   }
 
   .text-see-project-desktop:hover {
@@ -901,6 +934,7 @@
     letter-spacing: 0.03em;
     text-align: center;
     text-decoration: none;
+    transition: all 1s ease 0.15s;
   }
 
   .myself-btn .resume:hover {
@@ -1003,14 +1037,13 @@
   }
 
   .contact-me-form {
-    height: 90vh;
     color: #344563;
     padding: 24px;
     margin: auto;
     gap: 12px;
     background-color: #6070ff;
     background-image: url("desktop/contact\ form\ background\ shapes@2x.png");
-    background-size: cover;
+    background-size: contain;
     background-position: bottom left, right top;
     background-repeat: no-repeat;
     font-family: poppins, sans-serif;
@@ -1036,8 +1069,21 @@
     letter-spacing: 0.01em;
     text-align: center;
     color: #fff;
-    padding-left: 320px;
-    padding-right: 319px;
+    padding-left: 30%;
+    padding-right: 30%;
+    animation: 3s infinite reverse translation linear;
+  }
+
+  @keyframes translation {
+    from {
+      transform: translate(0%);
+      margin-left: 0;
+    }
+
+    to {
+      transform: translate(10%);
+      margin-left: 20%;
+    }
   }
 
   .content-text {
@@ -1047,8 +1093,13 @@
     letter-spacing: 0.01em;
     text-align: center;
     color: #ebebff;
-    padding-left: 436px;
-    padding-right: 435px;
+    padding-left: 20%;
+    padding-right: 20%;
+    transition: 1s ease-in 0.5s;
+  }
+
+  .content-text:hover {
+    transform: translate(6%);
   }
 
   .contact-form {
@@ -1056,8 +1107,8 @@
     flex-direction: column;
     gap: 18px;
     color: #fff;
-    padding-left: 467px;
-    padding-right: 466px;
+    padding-left: 20%;
+    padding-right: 20%;
   }
 
   #name {
