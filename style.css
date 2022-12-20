@@ -632,7 +632,7 @@
     letter-spacing: 0.37px;
     text-align: left;
     margin-bottom: 0.01px;
-    animation: 10s infinite reverse translation linear;
+    animation: 5s reverse translation linear;
   }
 
   @keyframes translation {
@@ -707,7 +707,7 @@
   .snapshot-portfolio-img-desktop:hover {
     height: 450px;
     width: 550px;
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 1s ease-in-out;
   }
 
@@ -1055,6 +1055,12 @@
     padding: 1rem;
     border: solid 1px #cfd8dc;
     background-color: #fff;
+  }
+
+  .name-visibility,
+  .email-visibility,
+  .text-msg-visibility {
+    visibility: hidden;
   }
 
   .footer-field textarea {
