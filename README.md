@@ -37,6 +37,7 @@ learning how to use git and git. The project name is called personal portfolio.
 - **[Header and main]** An HTML file with a header and main section for navigation and enabling user interaction.
 - **[CSS styling]** CSS file with an color styling of the HTML header.
 - **[gitignore directory]** There is a gitignore directory containing node_module] [images folder with different images for the project.
+- **[Accessibility]** There are some accessibility features that gather for disability issues for the users.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -53,6 +54,10 @@ https://chepkok3.github.io/Personal-Portfolio/
 - GitHub: chepkok3 (https://github.com/chepkok3)
 - Twitter: @stanleykibor3 (https://twitter.com/home)
 - LinkedIn: Kibor Stanley (https://www.linkedin.com/in/kibor-stanley-350b8a123/)
+
+👤 **Author2**
+
+- GitHub: @lenkon (https://github.com/lenkon)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -61,16 +61,13 @@
 
   .logo-info {
     font-family: poppins, sans-serif;
-    font-style: bold;
     font-size: 18pt;
     font-weight: 700;
-    line-height: 20pt;
     line-height: 74%;
     text-align: left;
     left: 12px;
     top: 10px;
     vertical-align: center;
-    fill: solid #000001;
     text-decoration: none;
     color: #6070ff;
     margin: 0;
@@ -635,7 +632,7 @@
     letter-spacing: 0.37px;
     text-align: left;
     margin-bottom: 0.01px;
-    animation: 5s infinite reverse translation linear;
+    animation: 5s reverse translation linear;
   }
 
   @keyframes translation {
@@ -645,8 +642,8 @@
     }
 
     to {
-      transform: translate(50%);
-      margin-left: 100%;
+      transform: translate(30%);
+      margin-left: 15%;
     }
   }
 
@@ -669,6 +666,7 @@
     letter-spacing: 0.01em;
     text-align: left;
     color: #7f8cff;
+    padding-top: 12px;
   }
 
   .social-media {
@@ -704,13 +702,13 @@
     width: 544px;
     padding: 34px;
     border-radius: 8px;
-    transform-origin: 0.5 1;
-    transition: width 1s ease-in 0.15s;
   }
 
   .snapshot-portfolio-img-desktop:hover {
-    height: 500px;
-    width: 600px;
+    height: 450px;
+    width: 550px;
+    transform: scale(1.05);
+    transition: 1s ease-in-out;
   }
 
   .snapshot-portfolio-img {
@@ -828,6 +826,7 @@
     line-height: 24px;
     letter-spacing: 3%;
     text-align: center;
+    transition: all 1s ease 0.15s;
   }
 
   .text-see-project-desktop {
@@ -868,8 +867,8 @@
     color: #fff;
   }
 
-  .text-see-project .see-project-button:active {
-    background-color: #2230d2;
+  .text-see-project .see-project-button:focus {
+    background-color: #d22274;
     color: #fff;
   }
 
@@ -1058,6 +1057,12 @@
     background-color: #fff;
   }
 
+  .name-visibility,
+  .email-visibility,
+  .text-msg-visibility {
+    visibility: hidden;
+  }
+
   .footer-field textarea {
     resize: none;
   }
@@ -1071,25 +1076,19 @@
     color: #fff;
     padding-left: 30%;
     padding-right: 30%;
-    animation: 3s infinite reverse translation linear;
   }
 
-  @keyframes translation {
-    from {
-      transform: translate(0%);
-      margin-left: 0;
-    }
-
-    to {
-      transform: translate(10%);
-      margin-left: 20%;
-    }
+  .contact-title :hover {
+    font-family: "Times New Roman", Times, serif;
+    transform-origin: 0% 100%;
+    animation: grow 5s ease-out;
+    animation-fill-mode: forwards;
   }
 
   .content-text {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 400;
-    line-height: 28px;
+    line-height: 34px;
     letter-spacing: 0.01em;
     text-align: center;
     color: #ebebff;
@@ -1099,7 +1098,7 @@
   }
 
   .content-text:hover {
-    transform: translate(6%);
+    transform: translate(5%);
   }
 
   .contact-form {
@@ -1109,6 +1108,10 @@
     color: #fff;
     padding-left: 20%;
     padding-right: 20%;
+  }
+
+  .contact-form :focus {
+    background-color: lightblue;
   }
 
   #name {
@@ -1165,7 +1168,6 @@
     color: #fff;
     border: solid #6070ff;
     font-size: 17px;
-    transform: rotate(20deg);
   }
 
   .footer-text .footer-button :focus :active {
@@ -1184,5 +1186,29 @@
     background-color: #2230d2;
     color: #fff;
     transition: none;
+  }
+
+  .my-btn a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .my-btn {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 18.5%;
+    left: 97.25%;
+    max-width: 30px;
+    width: 100%;
+    font-size: 12px;
+    background-color: transparent;
+    padding: 0.5px;
+    border: none;
+  }
+
+  .my-btn:hover {
+    background-color: #7dbbf1;
   }
 }
